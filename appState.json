@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "indu-sep9-350.js",
         "cursor": {
-          "lineNumber": 3,
-          "column": 1
+          "lineNumber": 21,
+          "column": 7
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -30,7 +30,18 @@
       "8dcac080-75bc-4f56-b5eb-f0ba7a77190e"
     ],
     "currentFileId": "8dcac080-75bc-4f56-b5eb-f0ba7a77190e",
-    "resources": {},
+    "resources": {
+      "s3111Vbvbw": {
+        "name": "s3111Vbvbw",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "111-vbvbw"
+          }
+        }
+      }
+    },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
@@ -48,7 +59,21 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        },
+        "test": {
+          "name": "test",
+          "version": "0.6.0",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -60,7 +85,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602238843165
+    "lastSave": 1602239809254
   },
   "VCS_STATE": {
     "provider": "GitHub",
