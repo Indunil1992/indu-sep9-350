@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8dcac080-75bc-4f56-b5eb-f0ba7a77190e": {
+        "id": "8dcac080-75bc-4f56-b5eb-f0ba7a77190e",
+        "parent": null,
+        "name": "indu-sep9-350.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indu-sep9-350.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "induSep9350"
+        },
+        "triggers": [],
+        "lastUpdated": 1602238816456
+      }
+    },
+    "openFiles": [
+      "8dcac080-75bc-4f56-b5eb-f0ba7a77190e"
+    ],
+    "currentFileId": "8dcac080-75bc-4f56-b5eb-f0ba7a77190e",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4",
+    "projectName": "indu-sep9-350",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ca-central-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1602238843165
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indu-sep9-350",
+      "url": "https://github.com/Indunil1992/indu-sep9-350"
+    }
+  }
+}
